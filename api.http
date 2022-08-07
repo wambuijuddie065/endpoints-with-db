@@ -1,0 +1,33 @@
+
+POST http://localhost:5000/products
+Content-Type: application/json
+
+{
+        "product":"Mouse",
+        "description":"Wireless Mouse"
+    }
+
+
+###
+
+GET http://localhost:5000/products
+
+###
+
+GET http://localhost:5000/products/a7ac7ce4-8486-4346-8109-adbccdd7351e
+
+###
+
+PUT http://localhost:5000/products/a7ac7ce4-8486-4346-8109-adbccdd7351e
+Content-Type: application/json
+
+{
+        "product":"White Mouse",
+        "description":"Wireless Mouse"
+    }
+
+###
+
+DELETE http://localhost:5000/products/a7ac7ce4-8486-4346-8109-adbccdd7351e
+
+

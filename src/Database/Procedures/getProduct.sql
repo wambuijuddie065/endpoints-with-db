@@ -1,0 +1,6 @@
+CREATE PROCEDURE getProduct(@id VARCHAR(100))
+AS
+BEGIN
+SELECT * FROM Products
+WHERE id=@id
+END

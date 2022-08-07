@@ -1,0 +1,6 @@
+CREATE PROCEDURE deleteProduct(@id VARCHAR(100))
+AS
+BEGIN
+DELETE FROM Products
+WHERE id=@id
+END
